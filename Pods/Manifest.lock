@@ -1,0 +1,20 @@
+PODS:
+  - OneSignal (2.15.2)
+  - Segmentio (4.1)
+
+DEPENDENCIES:
+  - OneSignal (< 3.0, >= 2.11.2)
+  - Segmentio
+
+SPEC REPOS:
+  trunk:
+    - OneSignal
+    - Segmentio
+
+SPEC CHECKSUMS:
+  OneSignal: 9531e385388565f4d31797ddadbe0fcc786430ec
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
+
+PODFILE CHECKSUM: bd789a4c7bd1764ea9c6e70709935574529566d7
+
+COCOAPODS: 1.10.0.beta.1

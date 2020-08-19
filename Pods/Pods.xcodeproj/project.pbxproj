@@ -1,0 +1,1491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		057529CC3867543F4F51CB0379358A3E /* OneSignal-iOS10.0 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2587F90FB05F8DEB80E69FF7127B2FAD /* Build configuration list for PBXAggregateTarget "OneSignal-iOS10.0" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OneSignal-iOS10.0";
+		};
+		28A77CDE04B748F6E9A7B85EE3306F39 /* OneSignal-iOS13.6 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2AD7EB911F53623E50237CD3F24F0D6C /* Build configuration list for PBXAggregateTarget "OneSignal-iOS13.6" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OneSignal-iOS13.6";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		071E93A8A8563FE3723ECE064323A8CB /* Pods-SegmentDemo-SegmentDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B47B0D1BC90AE62DA563B13B593BCC /* Pods-SegmentDemo-SegmentDemoUITests-dummy.m */; };
+		168F9B66AC1FBAC4BFA5095600EF3E4B /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C04CB5B647B707363A9735140A5EEF /* BadgeWithCounterViewBigSized.xib */; };
+		24E7B34ABFFA98FB5EE4E5DAB72E7E24 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9BABB51F2951B49B9E58F5BD9BBA9 /* SegmentioCellWithImageAfterLabel.swift */; };
+		25F8A7951F44D0124AA42F33BD832DAE /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FFC98F3047AFAFC40EE460E26BB291 /* BadgeWithCounterViewStandardSized.xib */; };
+		2DCD1F71F107BE948BF9F89F6BB17195 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C04CB5B647B707363A9735140A5EEF /* BadgeWithCounterViewBigSized.xib */; };
+		496627DE7441564CCEB4131460FC3F13 /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9FB3C0C542F94ADF4AE1E52E88DD /* SegmentioCell.swift */; };
+		4D22E5851A4EB07E601033B989792608 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2EBB354BA3541859243CD768AA8D36 /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
+		621FB4D31FD55F90EE84F2C02CC4874A /* Pods-SegmentDemo-SegmentDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD4C58D65E7EE26D3EA35B292F75B27 /* Pods-SegmentDemo-SegmentDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B70C4873C4579B570C432D918D4975C /* BadgeWithCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55B74435F79371D1CA65903A42CD3C /* BadgeWithCounterView.swift */; };
+		6F7CF8485BE3D7BC5E7885DB9DFB0FB1 /* Segmentio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9887E6290DFEE1E47712F0EBAEE45F4 /* Segmentio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73A0D6882DB4CA22AE5DBE6367EAF6F2 /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FF9BE5BF8E604759F36BD14B7D71F /* Segmentio.swift */; };
+		7574CF7C0AA3F663F0AF579B68EC9B14 /* Pods-SegmentDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FA382E1177356C45CE7A7230398BFA /* Pods-SegmentDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B88726AC475C3E18C7649B4BF655A8 /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1752C876F8E63D9C14588E2079F0AC /* SegmentioCellWithImageBeforeLabel.swift */; };
+		7A348A1CA564BFC9072AE49FEBF66B28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B216C56543FD9E9588D2810058E9F8E /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 616BB5D02B705C12528CC1B74C336CB9 /* Pods-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E0430E015C073EC4A2BC1A83CDDB91A /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65811147285A39C8545580FB605C40 /* SegmentioOptions.swift */; };
+		7F3FF1A3B6DF2A05DAF6D94F10AFDBF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8162B207954829EBBB66C9E14FB6B4D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		86DA5ECB19F1B0DE483B2BB5A857CE8C /* Pods-SegmentDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D64417598ABCD140B1153584BE487B11 /* Pods-SegmentDemo-dummy.m */; };
+		9766E5394F297B2A5C15D99BA02EB194 /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FFC98F3047AFAFC40EE460E26BB291 /* BadgeWithCounterViewStandardSized.xib */; };
+		B06BB833D62EBFEE1ED0E76B3D1D2680 /* Segmentio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */; };
+		B5A5AE94CEC0D085FFFC6E9166794F8D /* Segmentio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD2D469E8CE934ACC761587E174939 /* Segmentio-dummy.m */; };
+		BD8B5AC67578DD4C87E7736ABACCD865 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AFE6FD173A2DCEBC9EC349DD47782D /* UIView+Appearance.swift */; };
+		CC95557010628929347F6E820AAD33D7 /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8459A7651B11F86CDCD38CB5F66F5A8 /* SegmentioCellWithImage.swift */; };
+		D1715A6A179A03203C4F3CBA829430FF /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13216819FF8269D1BFC0F85F0A202B /* SegmentioCellWithImageUnderLabel.swift */; };
+		E0A9281F5D019FAE5B65A33383686855 /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C83F1C8AB2553F458FF244271A2329 /* SegmentioCellWithLabel.swift */; };
+		E478AE7CC2600C807B170C2A3D3A2E7F /* Pods-SegmentDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8137CC8DB17D45A52263EDB1C24D89A /* Pods-SegmentDemoTests-dummy.m */; };
+		E671599359CE601FE576676D9B17C5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E7220AC2CE9FA8532A9203EC3D38DAC1 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C734B3D028A9B9DF6FC373CCF1F3087 /* RoundImageView.swift */; };
+		E730C55CB9AC899B85F996F5A381FA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EE4E5E5FFA1F385C6FDCB709088DFF9E /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F65937D4F8E28D2488CC4CD4CE2E72 /* SegmentioCellWithImageOverLabel.swift */; };
+		EF61530F46306E51B0043DCD85DBFE21 /* Pods-SegmentDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 440786F2C6C6A8E5552CB92542BC80AE /* Pods-SegmentDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F92F00D5D5EDBAACC7937213BB517BCF /* BadgeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288F0EDC034AD74A750938B3FC0E9F3 /* BadgeViewPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9AB652FC42B453D3B0F5B9235BF574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D946402EAE11D13E8A8CBB3B95D011;
+			remoteInfo = Segmentio;
+		};
+		1D2BF20991872449E8AD1999FE81AE3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCF7D29EC7396E4018DB1E49BC64FFE;
+			remoteInfo = "Segmentio-Segmentio";
+		};
+		257694B2C95BD88044ADABDB528580D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057529CC3867543F4F51CB0379358A3E;
+			remoteInfo = "OneSignal-iOS10.0";
+		};
+		7BDFD2C6E9630DBFD417353FBF6D2456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D946402EAE11D13E8A8CBB3B95D011;
+			remoteInfo = Segmentio;
+		};
+		9BF7A3CFC915521181760971DDB709D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A77CDE04B748F6E9A7B85EE3306F39;
+			remoteInfo = "OneSignal-iOS13.6";
+		};
+		F805241646B5CDB816448ECCA644C42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A77CDE04B748F6E9A7B85EE3306F39;
+			remoteInfo = "OneSignal-iOS13.6";
+		};
+		F8FBB7AB19754600AE9CE7F5EA9DECB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60A1BA7541B3A88D327A233FA212EA1;
+			remoteInfo = "Pods-SegmentDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003FF9BE5BF8E604759F36BD14B7D71F /* Segmentio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segmentio.swift; path = Segmentio/Source/Segmentio.swift; sourceTree = "<group>"; };
+		0A41F4F1EC68A6F8A12FE56824F0CB57 /* Pods-SegmentDemo-SegmentDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentDemo-SegmentDemoUITests.modulemap"; sourceTree = "<group>"; };
+		0F1752C876F8E63D9C14588E2079F0AC /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageBeforeLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		137C61E265C59132E18F2CFC1067B1B2 /* ResourceBundle-Segmentio-Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Segmentio-Segmentio-Info.plist"; sourceTree = "<group>"; };
+		14FD2D469E8CE934ACC761587E174939 /* Segmentio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segmentio-dummy.m"; sourceTree = "<group>"; };
+		17F9370BB8D70837AE51BC34134BABA9 /* Pods-SegmentDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentDemo.modulemap"; sourceTree = "<group>"; };
+		22F65937D4F8E28D2488CC4CD4CE2E72 /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageOverLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
+		23896DE550150825A583B43671592A6B /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		278EDAA2D1BEC31D18B30957842D420E /* Pods-SegmentDemo-SegmentDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentDemo-SegmentDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		28183BDCD9A9554EBF4DAC6FA920A48C /* Pods-SegmentDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2E55B74435F79371D1CA65903A42CD3C /* BadgeWithCounterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeWithCounterView.swift; path = Segmentio/Source/Badge/Views/BadgeWithCounterView.swift; sourceTree = "<group>"; };
+		316668A0C10B32C58BFECB61E2F510EC /* Pods-SegmentDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		31F2AA3CBB372573FA7C560B93DAAE67 /* OneSignal-iOS13.6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OneSignal-iOS13.6.debug.xcconfig"; path = "../OneSignal-iOS13.6/OneSignal-iOS13.6.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34E3169FDB1592B66C0296A1D1EB7039 /* Pods-SegmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3F65811147285A39C8545580FB605C40 /* SegmentioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioOptions.swift; path = Segmentio/Source/SegmentioOptions.swift; sourceTree = "<group>"; };
+		440786F2C6C6A8E5552CB92542BC80AE /* Pods-SegmentDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentDemo-umbrella.h"; sourceTree = "<group>"; };
+		472C3907B762B1BC46EEBD49C3E66904 /* Pods-SegmentDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentDemoTests.modulemap"; sourceTree = "<group>"; };
+		47F216033E109F4016B48112C92DCD67 /* Pods-SegmentDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4AF3B972C94DFF11700E306F18F01DF3 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneSignalNotificationServiceExtension.framework; path = "Pods-OneSignalNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FFC98F3047AFAFC40EE460E26BB291 /* BadgeWithCounterViewStandardSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewStandardSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib; sourceTree = "<group>"; };
+		588CED318B20C6667E9F906CC0E7ECA3 /* Pods-SegmentDemo-SegmentDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentDemo-SegmentDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F97736109556FC0293D2A98FA981551 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616BB5D02B705C12528CC1B74C336CB9 /* Pods-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		65E6D2F045C0949F9F32B434D8112ADB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		680E73C4A9A3073597A4043E2B8B422A /* Pods-SegmentDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68B5606848CDD87537DEF4E3393EE800 /* Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segmentio-Info.plist"; sourceTree = "<group>"; };
+		70E8C346998AB14C5F6EBC561CF0F94D /* Pods-SegmentDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentDemo-Info.plist"; sourceTree = "<group>"; };
+		72B9BABB51F2951B49B9E58F5BD9BBA9 /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageAfterLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
+		7D414B7B0086340574EE3C01EF4044CE /* Pods-SegmentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8175742030E65B5113CA80601F8E313A /* Pods-SegmentDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8817803757CD15539FEA1F1E9F813D8C /* Pods-SegmentDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C13216819FF8269D1BFC0F85F0A202B /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageUnderLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
+		8D6B9FB3C0C542F94ADF4AE1E52E88DD /* SegmentioCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCell.swift; path = Segmentio/Source/Cells/SegmentioCell.swift; sourceTree = "<group>"; };
+		916FF972A5FD115EE1663797CD917F00 /* Pods-OneSignalNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		92A65A70176423437BEFDCCA09714D56 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		933182E44A33175FB4F42101CFC11474 /* Pods-SegmentDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		987EDBB45CDEB0DAFCB31328A6FB2D49 /* Segmentio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.debug.xcconfig; sourceTree = "<group>"; };
+		9C734B3D028A9B9DF6FC373CCF1F3087 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = Segmentio/Source/Extensions/RoundImageView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6DB0788FB54B71032A4E5380623FCE /* OneSignal-iOS13.6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OneSignal-iOS13.6.release.xcconfig"; path = "../OneSignal-iOS13.6/OneSignal-iOS13.6.release.xcconfig"; sourceTree = "<group>"; };
+		9F7B00F256A2475DE65884CD6C30D4DB /* OneSignal-iOS10.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OneSignal-iOS10.0.release.xcconfig"; sourceTree = "<group>"; };
+		A28B7491023E928A67CA7DF3977966D9 /* Pods-SegmentDemo-SegmentDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentDemo-SegmentDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		A5300D2686C6042F019F7D5780E1D55F /* Pods-SegmentDemo-SegmentDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentDemo-SegmentDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5C83F1C8AB2553F458FF244271A2329 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
+		A7FA382E1177356C45CE7A7230398BFA /* Pods-SegmentDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		A8459A7651B11F86CDCD38CB5F66F5A8 /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImage.swift; path = Segmentio/Source/Cells/SegmentioCellWithImage.swift; sourceTree = "<group>"; };
+		A8B47B0D1BC90AE62DA563B13B593BCC /* Pods-SegmentDemo-SegmentDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentDemo-SegmentDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		AF7A31A30E82161DD01A46D77A2BFEC0 /* Pods-SegmentDemo-SegmentDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentDemo-SegmentDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B59A2FEE3229428C96544397935141EE /* Pods-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		B8A82EBA16C8A73DF786EFB0DE62E561 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		BA8D393F8703D4F3C977AEACD9AD5711 /* Pods-SegmentDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAAE1DE88F1C66FF8A30BE8F4FAF11FF /* Pods-SegmentDemo-SegmentDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentDemo-SegmentDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF016BC6F5ED3F4063D596808BD30102 /* Pods_SegmentDemo_SegmentDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentDemo_SegmentDemoUITests.framework; path = "Pods-SegmentDemo-SegmentDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Segmentio.bundle; path = "Segmentio-Segmentio.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AFA0FD9B6645DED638EB66AF983987 /* Pods_SegmentDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentDemoTests.framework; path = "Pods-SegmentDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D164D1C34F5BCC7117FC16212603BAC0 /* OneSignal-iOS10.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OneSignal-iOS10.0.debug.xcconfig"; sourceTree = "<group>"; };
+		D223C13064DE235E50C1FE14A5B45C3B /* Segmentio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Segmentio.modulemap; sourceTree = "<group>"; };
+		D64417598ABCD140B1153584BE487B11 /* Pods-SegmentDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentDemo-dummy.m"; sourceTree = "<group>"; };
+		D7C04CB5B647B707363A9735140A5EEF /* BadgeWithCounterViewBigSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewBigSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib; sourceTree = "<group>"; };
+		D9887E6290DFEE1E47712F0EBAEE45F4 /* Segmentio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-umbrella.h"; sourceTree = "<group>"; };
+		E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segmentio.framework; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E288F0EDC034AD74A750938B3FC0E9F3 /* BadgeViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeViewPresenter.swift; path = Segmentio/Source/Badge/BadgeViewPresenter.swift; sourceTree = "<group>"; };
+		E6AFE6FD173A2DCEBC9EC349DD47782D /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Appearance.swift"; path = "Segmentio/Source/Extensions/UIView+Appearance.swift"; sourceTree = "<group>"; };
+		ED2EBB354BA3541859243CD768AA8D36 /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		F8007D754E46C9B6DA4AF80AC3B5E395 /* Segmentio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-prefix.pch"; sourceTree = "<group>"; };
+		F8137CC8DB17D45A52263EDB1C24D89A /* Pods-SegmentDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentDemoTests-dummy.m"; sourceTree = "<group>"; };
+		F975186AF9B51441A2E2541205168EF8 /* Segmentio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.release.xcconfig; sourceTree = "<group>"; };
+		F9F2C9B2A77D72CC234FB44B31EB4842 /* Pods_SegmentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentDemo.framework; path = "Pods-SegmentDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD4C58D65E7EE26D3EA35B292F75B27 /* Pods-SegmentDemo-SegmentDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentDemo-SegmentDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01761564ED4C7D07F7B28DFE59F0CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3FF1A3B6DF2A05DAF6D94F10AFDBF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E66EF541DD85188EC60D8D801248F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E671599359CE601FE576676D9B17C5EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A2212A830C3828FA211620A9CCD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A348A1CA564BFC9072AE49FEBF66B28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B6055E9FED3829A9F690B84FE74F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8162B207954829EBBB66C9E14FB6B4D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F14AB70600B454F1B6209636060354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E730C55CB9AC899B85F996F5A381FA17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0CC362343BCD5A7339CE5049A5888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAC4D7EFB55303776FBE989BBC32CC9 /* Pods-SegmentDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				472C3907B762B1BC46EEBD49C3E66904 /* Pods-SegmentDemoTests.modulemap */,
+				680E73C4A9A3073597A4043E2B8B422A /* Pods-SegmentDemoTests-acknowledgements.markdown */,
+				933182E44A33175FB4F42101CFC11474 /* Pods-SegmentDemoTests-acknowledgements.plist */,
+				F8137CC8DB17D45A52263EDB1C24D89A /* Pods-SegmentDemoTests-dummy.m */,
+				47F216033E109F4016B48112C92DCD67 /* Pods-SegmentDemoTests-Info.plist */,
+				A7FA382E1177356C45CE7A7230398BFA /* Pods-SegmentDemoTests-umbrella.h */,
+				8817803757CD15539FEA1F1E9F813D8C /* Pods-SegmentDemoTests.debug.xcconfig */,
+				8175742030E65B5113CA80601F8E313A /* Pods-SegmentDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SegmentDemoTests";
+			path = "Target Support Files/Pods-SegmentDemoTests";
+			sourceTree = "<group>";
+		};
+		0FDCA168D04FD38DED6C8E73AB6DC459 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BABCF87D3D6F4C822F670D996E3B356 /* Pods-OneSignalNotificationServiceExtension */,
+				BEB52CB0AFC29F8CBA2BA695944845D3 /* Pods-SegmentDemo */,
+				46D20775FF21DBF0DD6E02425DDBB38E /* Pods-SegmentDemo-SegmentDemoUITests */,
+				0DAC4D7EFB55303776FBE989BBC32CC9 /* Pods-SegmentDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2BABCF87D3D6F4C822F670D996E3B356 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B59A2FEE3229428C96544397935141EE /* Pods-OneSignalNotificationServiceExtension.modulemap */,
+				5F97736109556FC0293D2A98FA981551 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				23896DE550150825A583B43671592A6B /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				ED2EBB354BA3541859243CD768AA8D36 /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
+				916FF972A5FD115EE1663797CD917F00 /* Pods-OneSignalNotificationServiceExtension-Info.plist */,
+				616BB5D02B705C12528CC1B74C336CB9 /* Pods-OneSignalNotificationServiceExtension-umbrella.h */,
+				65E6D2F045C0949F9F32B434D8112ADB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				B8A82EBA16C8A73DF786EFB0DE62E561 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		3EB38F70B674A226097EB686E96910DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D164D1C34F5BCC7117FC16212603BAC0 /* OneSignal-iOS10.0.debug.xcconfig */,
+				9F7B00F256A2475DE65884CD6C30D4DB /* OneSignal-iOS10.0.release.xcconfig */,
+				31F2AA3CBB372573FA7C560B93DAAE67 /* OneSignal-iOS13.6.debug.xcconfig */,
+				9F6DB0788FB54B71032A4E5380623FCE /* OneSignal-iOS13.6.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OneSignal-iOS10.0";
+			sourceTree = "<group>";
+		};
+		46D20775FF21DBF0DD6E02425DDBB38E /* Pods-SegmentDemo-SegmentDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A41F4F1EC68A6F8A12FE56824F0CB57 /* Pods-SegmentDemo-SegmentDemoUITests.modulemap */,
+				BAAE1DE88F1C66FF8A30BE8F4FAF11FF /* Pods-SegmentDemo-SegmentDemoUITests-acknowledgements.markdown */,
+				AF7A31A30E82161DD01A46D77A2BFEC0 /* Pods-SegmentDemo-SegmentDemoUITests-acknowledgements.plist */,
+				A8B47B0D1BC90AE62DA563B13B593BCC /* Pods-SegmentDemo-SegmentDemoUITests-dummy.m */,
+				278EDAA2D1BEC31D18B30957842D420E /* Pods-SegmentDemo-SegmentDemoUITests-frameworks.sh */,
+				A28B7491023E928A67CA7DF3977966D9 /* Pods-SegmentDemo-SegmentDemoUITests-Info.plist */,
+				FBD4C58D65E7EE26D3EA35B292F75B27 /* Pods-SegmentDemo-SegmentDemoUITests-umbrella.h */,
+				588CED318B20C6667E9F906CC0E7ECA3 /* Pods-SegmentDemo-SegmentDemoUITests.debug.xcconfig */,
+				A5300D2686C6042F019F7D5780E1D55F /* Pods-SegmentDemo-SegmentDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-SegmentDemo-SegmentDemoUITests";
+			path = "Target Support Files/Pods-SegmentDemo-SegmentDemoUITests";
+			sourceTree = "<group>";
+		};
+		7074CBBE46C42BD699B42A164863AB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3B972C94DFF11700E306F18F01DF3 /* Pods_OneSignalNotificationServiceExtension.framework */,
+				F9F2C9B2A77D72CC234FB44B31EB4842 /* Pods_SegmentDemo.framework */,
+				BF016BC6F5ED3F4063D596808BD30102 /* Pods_SegmentDemo_SegmentDemoUITests.framework */,
+				D0AFA0FD9B6645DED638EB66AF983987 /* Pods_SegmentDemoTests.framework */,
+				C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */,
+				E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BEC2583BDF82404B229FDA1DC2F379 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				B057318895E5B8E459E8BB553083D062 /* Frameworks */,
+				3EB38F70B674A226097EB686E96910DC /* Support Files */,
+			);
+			name = OneSignal;
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		98CBFBBFC0394ADB03F4B806A9E8C661 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				137C61E265C59132E18F2CFC1067B1B2 /* ResourceBundle-Segmentio-Segmentio-Info.plist */,
+				D223C13064DE235E50C1FE14A5B45C3B /* Segmentio.modulemap */,
+				14FD2D469E8CE934ACC761587E174939 /* Segmentio-dummy.m */,
+				68B5606848CDD87537DEF4E3393EE800 /* Segmentio-Info.plist */,
+				F8007D754E46C9B6DA4AF80AC3B5E395 /* Segmentio-prefix.pch */,
+				D9887E6290DFEE1E47712F0EBAEE45F4 /* Segmentio-umbrella.h */,
+				987EDBB45CDEB0DAFCB31328A6FB2D49 /* Segmentio.debug.xcconfig */,
+				F975186AF9B51441A2E2541205168EF8 /* Segmentio.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Segmentio";
+			sourceTree = "<group>";
+		};
+		B057318895E5B8E459E8BB553083D062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A65A70176423437BEFDCCA09714D56 /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0B7A13811B93402C0BB3FBFD3CE2877 /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				E288F0EDC034AD74A750938B3FC0E9F3 /* BadgeViewPresenter.swift */,
+				2E55B74435F79371D1CA65903A42CD3C /* BadgeWithCounterView.swift */,
+				9C734B3D028A9B9DF6FC373CCF1F3087 /* RoundImageView.swift */,
+				003FF9BE5BF8E604759F36BD14B7D71F /* Segmentio.swift */,
+				8D6B9FB3C0C542F94ADF4AE1E52E88DD /* SegmentioCell.swift */,
+				A8459A7651B11F86CDCD38CB5F66F5A8 /* SegmentioCellWithImage.swift */,
+				72B9BABB51F2951B49B9E58F5BD9BBA9 /* SegmentioCellWithImageAfterLabel.swift */,
+				0F1752C876F8E63D9C14588E2079F0AC /* SegmentioCellWithImageBeforeLabel.swift */,
+				22F65937D4F8E28D2488CC4CD4CE2E72 /* SegmentioCellWithImageOverLabel.swift */,
+				8C13216819FF8269D1BFC0F85F0A202B /* SegmentioCellWithImageUnderLabel.swift */,
+				A5C83F1C8AB2553F458FF244271A2329 /* SegmentioCellWithLabel.swift */,
+				3F65811147285A39C8545580FB605C40 /* SegmentioOptions.swift */,
+				E6AFE6FD173A2DCEBC9EC349DD47782D /* UIView+Appearance.swift */,
+				BC092944A860B6C0423D6FEEC063FE36 /* Resources */,
+				98CBFBBFC0394ADB03F4B806A9E8C661 /* Support Files */,
+			);
+			name = Segmentio;
+			path = Segmentio;
+			sourceTree = "<group>";
+		};
+		B78686C00DD24D487226CD6F6AA8FD57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78BEC2583BDF82404B229FDA1DC2F379 /* OneSignal */,
+				B0B7A13811B93402C0BB3FBFD3CE2877 /* Segmentio */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC092944A860B6C0423D6FEEC063FE36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7C04CB5B647B707363A9735140A5EEF /* BadgeWithCounterViewBigSized.xib */,
+				54FFC98F3047AFAFC40EE460E26BB291 /* BadgeWithCounterViewStandardSized.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEB52CB0AFC29F8CBA2BA695944845D3 /* Pods-SegmentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				17F9370BB8D70837AE51BC34134BABA9 /* Pods-SegmentDemo.modulemap */,
+				BA8D393F8703D4F3C977AEACD9AD5711 /* Pods-SegmentDemo-acknowledgements.markdown */,
+				316668A0C10B32C58BFECB61E2F510EC /* Pods-SegmentDemo-acknowledgements.plist */,
+				D64417598ABCD140B1153584BE487B11 /* Pods-SegmentDemo-dummy.m */,
+				28183BDCD9A9554EBF4DAC6FA920A48C /* Pods-SegmentDemo-frameworks.sh */,
+				70E8C346998AB14C5F6EBC561CF0F94D /* Pods-SegmentDemo-Info.plist */,
+				440786F2C6C6A8E5552CB92542BC80AE /* Pods-SegmentDemo-umbrella.h */,
+				7D414B7B0086340574EE3C01EF4044CE /* Pods-SegmentDemo.debug.xcconfig */,
+				34E3169FDB1592B66C0296A1D1EB7039 /* Pods-SegmentDemo.release.xcconfig */,
+			);
+			name = "Pods-SegmentDemo";
+			path = "Target Support Files/Pods-SegmentDemo";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B78686C00DD24D487226CD6F6AA8FD57 /* Pods */,
+				7074CBBE46C42BD699B42A164863AB8E /* Products */,
+				0FDCA168D04FD38DED6C8E73AB6DC459 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		120626215108606984DE83FF41737698 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7574CF7C0AA3F663F0AF579B68EC9B14 /* Pods-SegmentDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E656E61FADAC1BAC91A4C85A93646AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B216C56543FD9E9588D2810058E9F8E /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C3F81FE52AD16E1D1E3078CC2548A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7CF8485BE3D7BC5E7885DB9DFB0FB1 /* Segmentio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC1E5DBE93DD13CF47C4D104EE40A7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621FB4D31FD55F90EE84F2C02CC4874A /* Pods-SegmentDemo-SegmentDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71F0E01DF7D03CC3361D8ADBFBB7D3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF61530F46306E51B0043DCD85DBFE21 /* Pods-SegmentDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6CFE30A003FB7A0F4B73D3A49728DC /* Build configuration list for PBXNativeTarget "Segmentio" */;
+			buildPhases = (
+				B3C3F81FE52AD16E1D1E3078CC2548A1 /* Headers */,
+				76E3D3B72E3CC44721A52DF3CB660A86 /* Sources */,
+				48B6055E9FED3829A9F690B84FE74F21 /* Frameworks */,
+				E574EFFF70E6635F44C67AF20A726199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE82A8769B9945FA67359A0D116B6A1 /* PBXTargetDependency */,
+			);
+			name = Segmentio;
+			productName = Segmentio;
+			productReference = E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		437161F3AE575BF0486AD52BBA9BC967 /* Pods-SegmentDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF395E98D23307755BFA56591C2864C9 /* Build configuration list for PBXNativeTarget "Pods-SegmentDemoTests" */;
+			buildPhases = (
+				120626215108606984DE83FF41737698 /* Headers */,
+				CAC1EE8E9667EDBE52F74101F10265B3 /* Sources */,
+				01761564ED4C7D07F7B28DFE59F0CF73 /* Frameworks */,
+				99C11D64AD97EB8D403B2DE4486CF484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29753871449238836E40C7A9E29EA786 /* PBXTargetDependency */,
+			);
+			name = "Pods-SegmentDemoTests";
+			productName = "Pods-SegmentDemoTests";
+			productReference = D0AFA0FD9B6645DED638EB66AF983987 /* Pods_SegmentDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		578B23977060EC1DD41A80DD9C30B525 /* Pods-SegmentDemo-SegmentDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D068BBC695C01B614A53C51560D575 /* Build configuration list for PBXNativeTarget "Pods-SegmentDemo-SegmentDemoUITests" */;
+			buildPhases = (
+				BCC1E5DBE93DD13CF47C4D104EE40A7B /* Headers */,
+				A677A7BD9942C9AB2A8350B105413B7D /* Sources */,
+				D3F14AB70600B454F1B6209636060354 /* Frameworks */,
+				D71C2522AC3FADE4C7CBE58B4FE76084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF9CCE06EC929089DC346C768DFA80C /* PBXTargetDependency */,
+				A28679D13AFAA7D0AF6547F0DFF89865 /* PBXTargetDependency */,
+			);
+			name = "Pods-SegmentDemo-SegmentDemoUITests";
+			productName = "Pods-SegmentDemo-SegmentDemoUITests";
+			productReference = BF016BC6F5ED3F4063D596808BD30102 /* Pods_SegmentDemo_SegmentDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736687FEBC9D86F222FCF61443C904ED /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */;
+			buildPhases = (
+				6CBEA8B2C1B88A8A79F35AB3A66929B2 /* Sources */,
+				FC0CC362343BCD5A7339CE5049A5888A /* Frameworks */,
+				31B33DA912488EDB41A79ADEB548D6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segmentio-Segmentio";
+			productName = "Segmentio-Segmentio";
+			productReference = C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B60A1BA7541B3A88D327A233FA212EA1 /* Pods-SegmentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A9D2492EE17F3E28D8D00B0A20CB00 /* Build configuration list for PBXNativeTarget "Pods-SegmentDemo" */;
+			buildPhases = (
+				F71F0E01DF7D03CC3361D8ADBFBB7D3C /* Headers */,
+				8AE1E1BF02EECC3BC4CE6C4F0C28BA6E /* Sources */,
+				0E66EF541DD85188EC60D8D801248F6B /* Frameworks */,
+				4B58677FE163BD1BB9A42812B40F5819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D032824C41F449A9162A3AAFDED4AA /* PBXTargetDependency */,
+				CBB25646CD4AB30A8701543371512160 /* PBXTargetDependency */,
+			);
+			name = "Pods-SegmentDemo";
+			productName = "Pods-SegmentDemo";
+			productReference = F9F2C9B2A77D72CC234FB44B31EB4842 /* Pods_SegmentDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD0F10574EB554D7E668F50D2A5B77DF /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D206B102A3B57EEE12710BFED6CDA61 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				8E656E61FADAC1BAC91A4C85A93646AC /* Headers */,
+				C2F905675891E19DF2CD8A70BF6EDB1C /* Sources */,
+				36A2212A830C3828FA211620A9CCD565 /* Frameworks */,
+				2D9E0F9B0D71BBDDF59495E3CF8926E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C1E16024828FA58D211DD732BE344F /* PBXTargetDependency */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			productName = "Pods-OneSignalNotificationServiceExtension";
+			productReference = 4AF3B972C94DFF11700E306F18F01DF3 /* Pods_OneSignalNotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7074CBBE46C42BD699B42A164863AB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057529CC3867543F4F51CB0379358A3E /* OneSignal-iOS10.0 */,
+				28A77CDE04B748F6E9A7B85EE3306F39 /* OneSignal-iOS13.6 */,
+				BD0F10574EB554D7E668F50D2A5B77DF /* Pods-OneSignalNotificationServiceExtension */,
+				B60A1BA7541B3A88D327A233FA212EA1 /* Pods-SegmentDemo */,
+				578B23977060EC1DD41A80DD9C30B525 /* Pods-SegmentDemo-SegmentDemoUITests */,
+				437161F3AE575BF0486AD52BBA9BC967 /* Pods-SegmentDemoTests */,
+				37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */,
+				AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9E0F9B0D71BBDDF59495E3CF8926E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B33DA912488EDB41A79ADEB548D6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168F9B66AC1FBAC4BFA5095600EF3E4B /* BadgeWithCounterViewBigSized.xib in Resources */,
+				25F8A7951F44D0124AA42F33BD832DAE /* BadgeWithCounterViewStandardSized.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B58677FE163BD1BB9A42812B40F5819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C11D64AD97EB8D403B2DE4486CF484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C2522AC3FADE4C7CBE58B4FE76084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574EFFF70E6635F44C67AF20A726199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD1F71F107BE948BF9F89F6BB17195 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				9766E5394F297B2A5C15D99BA02EB194 /* BadgeWithCounterViewStandardSized.xib in Resources */,
+				B06BB833D62EBFEE1ED0E76B3D1D2680 /* Segmentio.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CBEA8B2C1B88A8A79F35AB3A66929B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E3D3B72E3CC44721A52DF3CB660A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F00D5D5EDBAACC7937213BB517BCF /* BadgeViewPresenter.swift in Sources */,
+				6B70C4873C4579B570C432D918D4975C /* BadgeWithCounterView.swift in Sources */,
+				E7220AC2CE9FA8532A9203EC3D38DAC1 /* RoundImageView.swift in Sources */,
+				B5A5AE94CEC0D085FFFC6E9166794F8D /* Segmentio-dummy.m in Sources */,
+				73A0D6882DB4CA22AE5DBE6367EAF6F2 /* Segmentio.swift in Sources */,
+				496627DE7441564CCEB4131460FC3F13 /* SegmentioCell.swift in Sources */,
+				CC95557010628929347F6E820AAD33D7 /* SegmentioCellWithImage.swift in Sources */,
+				24E7B34ABFFA98FB5EE4E5DAB72E7E24 /* SegmentioCellWithImageAfterLabel.swift in Sources */,
+				79B88726AC475C3E18C7649B4BF655A8 /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
+				EE4E5E5FFA1F385C6FDCB709088DFF9E /* SegmentioCellWithImageOverLabel.swift in Sources */,
+				D1715A6A179A03203C4F3CBA829430FF /* SegmentioCellWithImageUnderLabel.swift in Sources */,
+				E0A9281F5D019FAE5B65A33383686855 /* SegmentioCellWithLabel.swift in Sources */,
+				7E0430E015C073EC4A2BC1A83CDDB91A /* SegmentioOptions.swift in Sources */,
+				BD8B5AC67578DD4C87E7736ABACCD865 /* UIView+Appearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE1E1BF02EECC3BC4CE6C4F0C28BA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DA5ECB19F1B0DE483B2BB5A857CE8C /* Pods-SegmentDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A677A7BD9942C9AB2A8350B105413B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E93A8A8563FE3723ECE064323A8CB /* Pods-SegmentDemo-SegmentDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F905675891E19DF2CD8A70BF6EDB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D22E5851A4EB07E601033B989792608 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1EE8E9667EDBE52F74101F10265B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E478AE7CC2600C807B170C2A3D3A2E7F /* Pods-SegmentDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29753871449238836E40C7A9E29EA786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SegmentDemo";
+			target = B60A1BA7541B3A88D327A233FA212EA1 /* Pods-SegmentDemo */;
+			targetProxy = F8FBB7AB19754600AE9CE7F5EA9DECB7 /* PBXContainerItemProxy */;
+		};
+		4CE82A8769B9945FA67359A0D116B6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Segmentio-Segmentio";
+			target = AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */;
+			targetProxy = 1D2BF20991872449E8AD1999FE81AE3F /* PBXContainerItemProxy */;
+		};
+		A28679D13AFAA7D0AF6547F0DFF89865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Segmentio;
+			target = 37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */;
+			targetProxy = 7BDFD2C6E9630DBFD417353FBF6D2456 /* PBXContainerItemProxy */;
+		};
+		B6C1E16024828FA58D211DD732BE344F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS10.0";
+			target = 057529CC3867543F4F51CB0379358A3E /* OneSignal-iOS10.0 */;
+			targetProxy = 257694B2C95BD88044ADABDB528580D8 /* PBXContainerItemProxy */;
+		};
+		CBB25646CD4AB30A8701543371512160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Segmentio;
+			target = 37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */;
+			targetProxy = 1A9AB652FC42B453D3B0F5B9235BF574 /* PBXContainerItemProxy */;
+		};
+		DBF9CCE06EC929089DC346C768DFA80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS13.6";
+			target = 28A77CDE04B748F6E9A7B85EE3306F39 /* OneSignal-iOS13.6 */;
+			targetProxy = F805241646B5CDB816448ECCA644C42F /* PBXContainerItemProxy */;
+		};
+		F7D032824C41F449A9162A3AAFDED4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OneSignal-iOS13.6";
+			target = 28A77CDE04B748F6E9A7B85EE3306F39 /* OneSignal-iOS13.6 */;
+			targetProxy = 9BF7A3CFC915521181760971DDB709D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC4BB4E5E5F34A5203A89B2047B5845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8175742030E65B5113CA80601F8E313A /* Pods-SegmentDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentDemoTests/Pods-SegmentDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentDemoTests/Pods-SegmentDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18ED56234104FA6C442A7DC1B3634366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588CED318B20C6667E9F906CC0E7ECA3 /* Pods-SegmentDemo-SegmentDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentDemo-SegmentDemoUITests/Pods-SegmentDemo-SegmentDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentDemo-SegmentDemoUITests/Pods-SegmentDemo-SegmentDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BD6780AD1CF8552CF6FE89A9E8A90D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6DB0788FB54B71032A4E5380623FCE /* OneSignal-iOS13.6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29BB876A2D14A5602D933E38D7548497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E6D2F045C0949F9F32B434D8112ADB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DD0485E0A10861B29C7904C3BF72798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987EDBB45CDEB0DAFCB31328A6FB2D49 /* Segmentio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2DF242D5AF2F94E5EBF62C35ADD2F141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D414B7B0086340574EE3C01EF4044CE /* Pods-SegmentDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentDemo/Pods-SegmentDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentDemo/Pods-SegmentDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AF4FC9C7DC5012E0C001CBA887E8719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F975186AF9B51441A2E2541205168EF8 /* Segmentio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Segmentio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B9A58A61B91400F4EB6AFF75D793A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F2AA3CBB372573FA7C560B93DAAE67 /* OneSignal-iOS13.6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668B8926ED0D30168202D9D775F60280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E3169FDB1592B66C0296A1D1EB7039 /* Pods-SegmentDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentDemo/Pods-SegmentDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentDemo/Pods-SegmentDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ACE01E101CD05C2D9274B28BE586706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78E162998E9E6AE12E0AE7FA22E32A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A82EBA16C8A73DF786EFB0DE62E561 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A47A467D24F16CDB151492CFBB84EF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5300D2686C6042F019F7D5780E1D55F /* Pods-SegmentDemo-SegmentDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentDemo-SegmentDemoUITests/Pods-SegmentDemo-SegmentDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentDemo-SegmentDemoUITests/Pods-SegmentDemo-SegmentDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1B259C5FB7465EF9C71163827046E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7834EE4555C614783A3256ED768B0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7B00F256A2475DE65884CD6C30D4DB /* OneSignal-iOS10.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD89D7FDD0F0C1F219D4F6F1FD9D5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D164D1C34F5BCC7117FC16212603BAC0 /* OneSignal-iOS10.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB77863803BAA1B556FB41D9FDB3FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F975186AF9B51441A2E2541205168EF8 /* Segmentio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F0603D2C7F26BFD9F7302190D23C4441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987EDBB45CDEB0DAFCB31328A6FB2D49 /* Segmentio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Segmentio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCA79783EB336B813B56B4E4E12CAEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8817803757CD15539FEA1F1E9F813D8C /* Pods-SegmentDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentDemoTests/Pods-SegmentDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentDemoTests/Pods-SegmentDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2587F90FB05F8DEB80E69FF7127B2FAD /* Build configuration list for PBXAggregateTarget "OneSignal-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD89D7FDD0F0C1F219D4F6F1FD9D5A6 /* Debug */,
+				D7834EE4555C614783A3256ED768B0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD7EB911F53623E50237CD3F24F0D6C /* Build configuration list for PBXAggregateTarget "OneSignal-iOS13.6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9A58A61B91400F4EB6AFF75D793A53 /* Debug */,
+				1BD6780AD1CF8552CF6FE89A9E8A90D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D206B102A3B57EEE12710BFED6CDA61 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BB876A2D14A5602D933E38D7548497 /* Debug */,
+				78E162998E9E6AE12E0AE7FA22E32A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A9D2492EE17F3E28D8D00B0A20CB00 /* Build configuration list for PBXNativeTarget "Pods-SegmentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF242D5AF2F94E5EBF62C35ADD2F141 /* Debug */,
+				668B8926ED0D30168202D9D775F60280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D068BBC695C01B614A53C51560D575 /* Build configuration list for PBXNativeTarget "Pods-SegmentDemo-SegmentDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ED56234104FA6C442A7DC1B3634366 /* Debug */,
+				A47A467D24F16CDB151492CFBB84EF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B259C5FB7465EF9C71163827046E70 /* Debug */,
+				6ACE01E101CD05C2D9274B28BE586706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6CFE30A003FB7A0F4B73D3A49728DC /* Build configuration list for PBXNativeTarget "Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0603D2C7F26BFD9F7302190D23C4441 /* Debug */,
+				5AF4FC9C7DC5012E0C001CBA887E8719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736687FEBC9D86F222FCF61443C904ED /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD0485E0A10861B29C7904C3BF72798 /* Debug */,
+				DCB77863803BAA1B556FB41D9FDB3FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF395E98D23307755BFA56591C2864C9 /* Build configuration list for PBXNativeTarget "Pods-SegmentDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA79783EB336B813B56B4E4E12CAEE3 /* Debug */,
+				0FC4BB4E5E5F34A5203A89B2047B5845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
